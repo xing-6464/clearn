@@ -51,5 +51,22 @@ int main()
   int k = ++i;          // 2
   printf("j: %d\n", j); // 0
   printf("k: %d\n", k); // 2
+
+// 位运算符: &, |, ^, ~
+#define FLAG_VISIBLE 0x01     // 0001
+#define FLAG_TRANSPARENT 0x02 // 0010
+#define FLAG_RESIZABLE 0x04   // 0100
+
+  int window_flags = FLAG_RESIZABLE | FLAG_TRANSPARENT;
+  printf("window_flags: %#x\n", window_flags);   // 0x06 (00110)
+  int resizable = window_flags & FLAG_RESIZABLE; // 0x04 (0100)
+
+// 位移运算符: << (left shift), >> (right shift)
+#define FLAG_VISIBLE 1 << 0     // 2^0, 0001
+#define FLAG_TRANSPARENT 1 << 1 // 2^1, 0010
+#define FLAG_RESIZABLE 1 << 2   // 2^2, 0100
+
+  // 复合赋值运算符: +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+
   return 0;
 }
