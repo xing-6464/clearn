@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/xing/Desktop/clearn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -g -std=gnu11 -o CMakeFiles\\my_include_file.c.dir\\my_include_file.c.obj -c C:\\Users\\xing\\Desktop\\clearn\\my_include_file.c",
+  "file": "C:\\Users\\xing\\Desktop\\clearn\\my_include_file.c",
+  "output": "CMakeFiles\\my_include_file.c.dir\\my_include_file.c.obj"
+},
+{
+  "directory": "C:/Users/xing/Desktop/clearn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -g -std=gnu11 -o CMakeFiles\\my_include_file.c.dir\\src\\factorial.c.obj -c C:\\Users\\xing\\Desktop\\clearn\\src\\factorial.c",
+  "file": "C:\\Users\\xing\\Desktop\\clearn\\src\\factorial.c",
+  "output": "CMakeFiles\\my_include_file.c.dir\\src\\factorial.c.obj"
+}
+]

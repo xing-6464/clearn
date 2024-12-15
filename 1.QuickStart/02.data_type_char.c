@@ -29,6 +29,7 @@ int main()
 
   printf("中 = %d\n", zhong);      // 20013
   printf(" 中 = %d\n", zhong_hex); // 20013
+  wprintf("%lc\n", zhong);         // 中
 
   // 字符串
   char *str = "中";
